@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Tajawal', system-ui, sans-serif;
+  background: #0b1626;
+  color: #e4ecf7;
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #1e3350; border-radius: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+
+input, select, textarea {
+  font-family: inherit;
+}
