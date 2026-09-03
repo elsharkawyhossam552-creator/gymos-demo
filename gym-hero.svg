@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f3d82"/>
+      <stop offset="1" stop-color="#1F6FEB"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#6ec1ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#6ec1ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dbe7f7"/>
+      <stop offset="1" stop-color="#9db4d1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#g)"/>
+  <rect width="1200" height="400" fill="url(#glow)"/>
+
+  <!-- dumbbells -->
+  <g transform="translate(900,120) rotate(-12)" opacity="0.95">
+    <rect x="150" y="70" width="250" height="42" rx="21" fill="url(#steel)"/>
+    <rect x="120" y="46" width="64" height="72" rx="13" fill="url(#steel)"/>
+    <rect x="366" y="46" width="64" height="72" rx="13" fill="url(#steel)"/>
+    <rect x="100" y="54" width="52" height="56" rx="10" fill="#87a0c2"/>
+    <rect x="398" y="54" width="52" height="56" rx="10" fill="#87a0c2"/>
+  </g>
+
+  <!-- barbell plates -->
+  <g transform="translate(80,180) rotate(6)" opacity="0.8">
+    <rect x="240" y="64" width="300" height="38" rx="19" fill="url(#steel)"/>
+    <rect x="200" y="46" width="56" height="74" rx="11" fill="#87a0c2"/>
+    <rect x="524" y="46" width="56" height="74" rx="11" fill="#87a0c2"/>
+  </g>
+
+  <!-- kettlebell -->
+  <g transform="translate(560,60)" opacity="0.75">
+    <ellipse cx="60" cy="40" rx="46" ry="38" fill="url(#steel)"/>
+    <path d="M60 0c26 0 48 7 48 24 0 19-19 22-48 22s-48-3-48-22C12 7 34 0 60 0z" fill="#87a0c2"/>
+  </g>
+
+  <circle cx="180" cy="330" r="6" fill="#fff" opacity="0.5"/>
+  <circle cx="1120" cy="350" r="5" fill="#fff" opacity="0.4"/>
+  <circle cx="1240" cy="40" r="4" fill="#fff" opacity="0.5"/>
+</svg>
