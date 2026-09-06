@@ -1,6 +1,6 @@
 {
-  "enabled": false,
-  "url": "",
-  "key": "",
+  "enabled": true,
+  "url": "https://gwcecppknhdkxdyujqje.supabase.co",
+  "key": "sb_publishable_P1ilJmNJmhFMZr9OxM_nuw_Ci9i-NuG",
   "table": "gymos_state"
 }
